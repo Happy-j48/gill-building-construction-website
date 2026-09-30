@@ -6,7 +6,7 @@ import { company, whyChooseUs } from '../data/siteData';
 
 export default function About() {
   return <>
-    <PageHero title={`About ${company.name}`} subtitle="A professional construction website concept built around the client's supplied branding, with temporary content ready to be replaced by approved company information." />
+    <PageHero title={`About ${company.name}`} subtitle="A professional construction website concept built around the client's supplied branding, with temporary content ready to be replaced by approved company information happy." />
 
     <section className="section"><div className="container"><div className="two-col"><div className="two-col-image"><img src="/images/gill-brand-banner.jpg" alt="Gill Building & Construction brand" /></div><div className="two-col-content"><SectionHeader eyebrow="The Brand" title="A confident construction presence online" align="left" /><p>Gill Building &amp; Construction already has a strong visual identity. This concept turns that identity into a complete digital experience with clear navigation, strong calls to action and a project-focused presentation.</p><p>The temporary copy on this page is intentionally easy to replace. Once the client provides their story, experience, locations and services, those details can be added without changing the overall layout.</p><Button to="/contact" variant="primary">Start a Conversation</Button></div></div></div></section>
 
